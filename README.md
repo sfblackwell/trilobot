@@ -23,8 +23,9 @@
 - picamera2
 
 ### Providing the following key funtions:
-- Web based 'Point of View' driving using camera and on page controls
-  - Python, Flask, HTML5+CSS, Javascript, MariaDb
+- trilobotWebApp
+  - Web based 'Point of View' driving using camera and on page controls
+    - Python, Flask, HTML5+CSS, Javascript, MariaDb
 - [8BitDo Zero Bluetooth Game Controller](https://shop.pimoroni.com/products/8bitdo-zero-2-bluetooth-gamepad?variant=31339051384915) driving
   - Python
 - Enviromental and Posistional data collection and storage
