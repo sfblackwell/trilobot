@@ -22,7 +22,7 @@
 - MariaDB
 - picamera2
 
-### Providing the following key funtions:
+### Providing the following key functions:
 - **trilobotWebApp.py**
   - Web based 'Point of View' driving using camera and on page controls
     - Python, Flask, HTML5+CSS, Javascript, MariaDb
@@ -32,7 +32,9 @@
 - **trilobotEnv.py**
   - Enviromental and Posistional data collection and storage
     - Python, MariaDB
+    - started at boot by cron
 - **trilobotMJPEG-server.py**
   - Camera Streaming for web based driving 
     - picamera2
+    - started at boot by cron
 
