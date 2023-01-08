@@ -29,4 +29,6 @@
   - Python
 - Enviromental and Posistional data collection and storage
   - Python, MariaDB
+- Camera Streaming for web based driving 
+  - picamera2
 
