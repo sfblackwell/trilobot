@@ -10,7 +10,7 @@
 - I2C [5*5 RGB LED Matrix Display](https://shop.pimoroni.com/products/5x5-rgb-matrix-breakout?variant=21375941279827)
 - I2C [11*7 LED Matrix Display](https://shop.pimoroni.com/products/11x7-led-matrix-breakout?variant=21791690752083)	
 - I2C [BME680 Enviromental Monitor](https://shop.pimoroni.com/products/bme680-breakout?variant=12491552129107) 
-- Rear facing SN-04 ultrasonic ranger (moved from front)
+- Rear facing SN-04 ultrasonic ranger (moved from front) under development
 - Front Facing [8mp Camera](https://shop.pimoroni.com/products/raspberry-pi-camera-module-v2?variant=19833929735)
 - Servo with **_spining Santa_**
  
