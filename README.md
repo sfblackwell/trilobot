@@ -26,17 +26,17 @@
 - picamera2
 
 ### Providing the following key functions:
-- **trilobotWebApp.py**
+- **trilobot/trilobotWebApp/trilobotWebApp.py**
   - Web based 'Point of View' driving using camera and on page controls
     - Python, Flask, HTML5+CSS, Javascript, MariaDb
-- **trilobotMot.py**
+- **trilobot/trilobotMot.py**
   - [8BitDo Zero Bluetooth Game Controller](https://shop.pimoroni.com/products/8bitdo-zero-2-bluetooth-gamepad?variant=31339051384915) driving
     - Python
-- **trilobotEnv.py**
+- **trilobot/trilobotEnv.py**
   - Enviromental and Posistional data collection and storage
     - Python, MariaDB
     - started at boot by cron
-- **trilobotMJPEG-server.py**
+- **trilobot/trilobotMJPEG-server.py**
   - Camera Streaming for web based driving 
     - picamera2
     - started at boot by cron
