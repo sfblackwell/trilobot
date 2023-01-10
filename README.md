@@ -1,9 +1,9 @@
-# *** This is a work in progress ***
-
-# *** I am not a coder or programer, so please excuse the chaos ***
-
-
 # Simons-Trilobot
+
+## *** This is a work in progress ***
+
+## *** I am not a coder or programer, so please excuse the chaos ***
+
 ## Simons @pimoroni Trilobot robot
 
 ### Loaded with:
