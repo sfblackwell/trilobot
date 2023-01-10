@@ -1,6 +1,6 @@
 # Simons-Trilobot
 
-## *** This is a work in progress ***
+## *** This is a work in progress, I am only just getting started ***
 
 ## *** I am not a coder or programer, so please excuse the chaos ***
 
