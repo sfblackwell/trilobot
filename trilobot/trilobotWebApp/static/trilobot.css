@@ -1,0 +1,381 @@
+
+input[type="range"] {
+  -webkit-appearance: none;
+  margin-right: 15px;
+  width: 100px;
+  height: 7px;
+  background: #00FF00;
+  border-radius: 5px;
+  background-image: linear-gradient(#ff4500, #ff4500);
+  background-size: 0% 80%;
+  background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 70%;
+  background: #00FF00;
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 #555;
+  transition: background .3s ease-in-out;
+}
+
+input[type="range"]::-webkit-slider-runnable-track  {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+/* Newer CSS */
+
+body {
+background: #1ACDD9;
+background: -moz-linear-gradient(top, #1ACDD9 0%, #163C43 100%);
+background: -webkit-linear-gradient(top, #1ACDD9 0%, #163C43 100%);
+background: linear-gradient(to bottom, #1ACDD9 0%, #163C43 100%);
+}
+
+.leftdiv
+	{
+	float: left;
+	width: 30%;
+	}
+.rightdiv
+	{
+	float: left;
+	width: 70%;
+	}
+	div{
+	padding : 1%;
+	color: white;
+	/* background-color: 009900; */
+	/* border: solid black 3px; */
+	}
+
+.setupleftdiv
+	{
+	float: left;
+	width: 30%;
+	}
+.setuprightdiv
+	{
+	float: left;
+	width: 70%;
+	}
+	div{
+	padding : 1%;
+	color: white;
+	/* background-color: 009900; */
+	/* border: solid black 3px; */
+	}
+
+/* older CSS */
+
+vStream {width: 50%; height: 400px; overflow: hidden; border: 3px solid #000;}
+
+/* right div iFrame */
+
+.iframestyle {width: 670px; height: 510px; overflow: show; border: 3px solid #000;}
+
+.setupBtn {margin-top: 50px; text-align: center; color: white; background-color: #0000FF; 
+			margin-left: 5px; font-size: 24px; font-weight: bold; line-height: 11px; 
+			padding: 10px 20px; border-radius: 7px; border: 3px solid; text-decoration: none;}
+			
+.setupBtnBig {margin-top: 200px; text-align: center; color: white; background-color: #0000FF; 
+			margin-left: 80px; font-size: 24px; font-weight: bold; line-height: 11px; 
+			padding: 10px 20px; border-radius: 7px; border: 3px solid; text-decoration: none;}
+
+.drivingBtn {margin-top: 30px; text-align: center; color: white; background-color: #0000FF; 
+			margin-left: 10px; font-size: 24px; font-weight: bold; line-height: 11px; 
+			padding: 10px 20px; border-radius: 7px; border: 3px solid; text-decoration: none;}
+
+.linkDrivingBox {margin-left: 15px; margin-top: 10px; margin-bottom: 20px; width: 300px; 
+			height: 100px;}
+			
+.linkDriving {margin-left: 5px; margin-top: 30px;}
+
+/* steering CSS */
+
+#motorControl { width: 280px; height: 200px; border: 3px solid;  padding: 10px; text-align: center;}
+#TOFgridDiv { width: 280px; height: 200px; border: 3px solid;  padding: 10px; text-align: center;}
+
+table.motTables {margin-left: auto; margin-right: auto; text-align: center;}
+
+/* table.motTables td, table.motTables th { text-align: center;} */
+
+table.motTables thead {
+  color: #0000FF;font-weight: bold; font-size: 20px; 
+}
+
+table.motTables td {
+  color: #0000FF;font-weight: bold; font-size: 20px; 
+}
+
+table.motTables thead th {
+  /* font-weight: normal; */
+}
+
+table.motTables tfoot {
+  font-weight: bold;
+}
+
+#servoTD {
+  color: #0000FF;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.motButton {background-color: #FF0C45; margin-left: 10px; font-size: 18px; line-height: 11px; padding: 2px; border-radius: 7px;}
+.motButtonS {background-color: #FF0C45; margin-left: 10px; font-weight: bold; font-size: 10px; line-height: 11px; padding: 2px; border-radius: 7px;}
+.servoRight {background-color: #FF0C45; margin-left: 1px; font-size: 18px; line-height: 11px; padding: 2px; border-radius: 7px;}
+
+/* for big motor controls */
+
+#motorControlBig { width: 280px; height: 200px; border: 3px solid;  padding: 10px; text-align: center;}
+#TOFgridDivBig { width: 280px; height: 200px; border: 3px solid;  padding: 10px; text-align: center;}
+
+table.motTablesBig {margin-left: auto; margin-right: auto; text-align: center;}
+
+table.motTablesBig td, table.motTables th { text-align: center;}
+
+table.motTablesBig thead {
+  color: #0000FF;font-weight: bold; font-size: 40px; 
+}
+
+table.motTablesBig td {
+  color: #0000FF;font-weight: bold; font-size: 40px; 
+}
+
+table.motTablesBig thead th {
+  /* font-weight: normal; */
+}
+
+table.motTablesBig tfoot {
+  font-weight: bold;
+}
+
+#servoTDBig {
+  color: #0000FF;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  }
+
+.motButtonBig {background-color: #FF0C45; margin-left: 10px; font-size: 60px; line-height: 50px; padding: 2px; border-radius: 7px;}
+.motButtonSBig {background-color: #FF0C45; margin-left: 10px; font-weight: bold; font-size: 30px; line-height: 50px; padding: 2px; border-radius: 7px;}
+.servoRightBig {background-color: #FF0C45; margin-left: 1px; font-size: 60px; line-height: 50px; padding: 2px; border-radius: 7px;}
+
+
+
+/* settings css */
+
+div.unstyledTable {
+}
+.divTable.unstyledTable .divTableCell, .divTable.unstyledTable .divTableHead {
+	
+}
+
+.divTableCell, .divTableHead {
+	text-align: center;
+}
+
+.divTableCellLeft .divTableHeadLeft {
+	text-align: left;
+}
+
+.divTable.unstyledTable .divTableHeading {
+  /* background: #DDDDDD; */
+}
+
+.divTable.unstyledTable .divTableHeading .divTableHead {
+  font-weight: normal;
+}
+
+.divTableHead {
+  width: 100px; font-size: 15px;
+}
+
+.unstyledTable .tableFootStyle {
+  font-weight: bold;
+}
+
+.tableFootMargin  {
+  margin-top: 25px;
+}
+
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+
+/* messages css */
+
+.messageHeader {
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 13px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+margin-left: 10px; 
+}
+.messages {margin-left: 15px; margin-top: 10px; margin-bottom: 20px; width: 300px; border: 6px double rgba(255, 0, 0, 1);}
+.messageBox {margin-top: 10px; margin-left: 10px;}
+
+
+/* reboot css */
+
+.boxHeader {
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 13px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+margin-left: 10px; 
+}
+
+
+.rebootBox {margin-left: 15px; margin-top: 10px; margin-bottom: 20px; width: 300px; border: 6px double rgba(255, 0, 0, 1);}
+.rebootBtnBox {margin-top: 10px; margin-left: 10px;}
+.rebootBtnBox1 {margin-top: 10px; margin-left: 20px;}
+
+#restartButton {margin-left: 10px; font-size: 11px; line-height: 11px; padding: 2px; border-radius: 7px;}
+ 
+/* table button CSS */ 
+ 
+.tblButton {background-color: #FF0C45; margin-left: 10px; font-size: 11px; line-height: 11px; padding: 2px; border-radius: 7px;}
+ 
+/* table css */ 
+ 
+table.unstyledTable {}
+table.unstyledTable td, table.unstyledTable th {}   
+    
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+  color: #0000FF;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+  color: #000000;
+  font-weight: bold;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+  color: #FF0000;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  border-left: 2px solid #D0E4F5;
+}
+
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FF0000;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px
+  color: #000000;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+/* override for tofTS time stamp */
+
+/* #tofTS {
+   background-color: #2CABFF;
+   color: #000000;
+} */
+
+/* /* 3 column layout elements */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*	google maps 	*/
+
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>

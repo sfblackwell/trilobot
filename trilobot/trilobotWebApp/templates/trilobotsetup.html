@@ -1,0 +1,177 @@
+<html>
+<head>
+<link rel="stylesheet" href='/static/trilobot.css' />
+</head>
+<body>
+<!-- Link JavaScript file -->
+<script src="/static/trilobot1.js"></script>
+
+<div class="setupleftdiv">
+
+<!-- link back dialog -->
+
+<div class="linkDrivingBox">
+	<div class="linkDriving">
+		<a class="drivingBtn" href="http://192.168.1.221:5000" target="_self">Back To Driving</a>
+	</div>
+</div>
+
+<!-- options dialog -->
+
+<div class="messages">
+<p class="messageHeader">Trilobot Options</p>
+	
+<div class="messageBox">
+<form id = "options">
+
+<div class="divTable unstyledTable">
+<div class="divTableHeading">
+<div class="divTableRow">
+<div class="divTableHeadLeft">Sensor</div>
+<div class="divTableHead">Collect</div>
+<div class="divTableHead">Show</div>
+</div>
+</div>
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCellLeft"><label for="collectData">Data</label></div>
+<div class="divTableCell"><input type="checkbox" id="collectData" name="collectData" value="collectData" {{ collectData }} ></div>
+<div class="divTableCell"><input type="checkbox" id="showData" name="showData" value="showData" {{ showData }}></div>
+</div>
+<div class="divTableRow">
+<div class="divTableCellLeft"><label for="collectGPS">GPS</label></div>
+<div class="divTableCell"><input type="checkbox" id="collectGPS" name="collectGPS" value="collectGPS" {{ collectGPS }}></div>
+<div class="divTableCell"><input type="checkbox" id="showGPS" name="showGPS" value="showGPS" {{ showGPS }}></div>
+</div>
+<div class="divTableRow">
+<div class="divTableCellLeft"><label for="collectTOF">TOF</label></div>
+<div class="divTableCell"><input type="checkbox" id="collectTOF" name="collectTOF" value="collectTOF" {{ collectTOF }}></div>
+<div class="divTableCell"><input type="checkbox" id="showTOF" name="showTOF" value="showTOF" {{ showTOF }}></div>
+</div>
+<div class="divTableRow">
+<div class="divTableCellLeft"><label for="collectULT">ULT</label></div>
+<div class="divTableCell"><input type="checkbox" id="collectULT" name="collectULT" value="collectULT" {{ collectULT }}></div>
+<div class="divTableCell"><input type="checkbox" id="showULT" name="showULT" value="showULT" {{ showULT }}></div>
+</div>
+<div class="divTableRow">
+<div class="divTableCellLeft"><label for="collectENV">ENV</label></div>
+<div class="divTableCell"><input type="checkbox" id="collectENV" name="collectENV" value="collectENV" {{ collectENV }}></div>
+<div class="divTableCell"><input type="checkbox" id="showENV" name="showENV" value="showENV" {{ showENV }}></div>
+</div>
+<div class="divTableRow">
+<div class="divTableCellLeft"><label for="collectGRD">GRD</label></div>
+<div class="divTableCell"><input type="checkbox" id="collectGRD" name="collectGRD" value="collectGRD" {{ collectGRD }}></div>
+<div class="divTableCell"><input type="checkbox" id="showGRD" name="showGRD" value="showGRD" {{ showGRD }}></div>
+</div>
+
+<div class="divTableRow">
+<div class="divTableCellLeft"><label for="collectFrequency">Fequency:</label></div>
+<div class="divTableCell"><input type="number" id="collectFrequency" name="collectFrequency" min="10" max="600" step="10" value="{{ collectFrequency }}"></div>
+<div class="divTableCell"><input type="number" id="showFrequency" name="showFrequency" min="10" max="600" step="10" value="{{ showFrequency }}"></div>
+</div>
+
+
+</div>
+<div class="divTableFoot tableFootStyle tableFootMargin">
+<div class="divTableRow">
+<div class="divTableCellLeft"><input type="button" value="Save" onclick="optionsProccess()"></div>
+<div class="divTableCell"></div>
+<div class="divTableCell"></div>
+</div>
+</div>
+</div>
+
+</form>
+</div>
+</div>
+
+<!-- messages dialog -->
+
+<div class="messages">
+    <p class="messageHeader">Trilobot Messages</p>
+	
+	<form id = "messages">
+    <div class="messageBox">
+		<label for="startupMess">Startup Message</label>
+		<input type="text" id="startupMess" name="startupMess" value="{{ startMess }}">
+	</div>
+	<div class="messageBox">
+		<label for="scrollMess">Scroll Message</label>
+		<input type="text" id="scrollMess" name="scrollMess" value="{{ scrollMess }}">
+    </div>
+	<div class="messageBox">
+		<label for="shutdownMess">Shutdown Message</label>
+		<input type="text" id="shutdownMess" name="shutdownMess" value="{{ shutMess }}">
+    </div>
+	<div class="messageBox">
+		<input type="Submit" value="Save" onclick="messProccess()">
+	</div>	
+	</form>	
+</div>
+
+
+
+</div>
+
+<div class="setuprightdiv">
+
+<!-- Misc dialog -->
+
+<div class="messages">
+    <p class="messageHeader">Trilobot Misc Options</p>
+	
+	<form id = "miscItems">
+    <div class="messageBox">
+		<label for="gameController">Game Controller</label>
+		<input type="text" id="gameController" name="gameController" value="{{ gameController }}">
+	</div>
+	
+	<div class="messageBox">
+		<label for="stopEnvCollection">Stop Env Collection Prog</label>
+		<input type="checkbox" id="stopEnvCollection" name="stopEnvCollection" value="stopEnvCollection" {{ stopEnvCollection }} >
+	</div>
+	
+	<div class="messageBox">
+		<label for="motorStatic">Static Motor</label>
+		<input type="checkbox" id="motorStatic" name="motorStatic" value="motorStatic" {{ motorStatic }} >
+	</div>
+		
+	<div class="messageBox">
+		<label for="motorButtonBig">Big Motor Buttons</label>
+		<input type="checkbox" id="motorButtonBig" name="motorButtonBig" value="motorButtonBig" {{ motorButtonBig }} >
+	</div>
+	
+	<div class="messageBox">
+		<input type="Submit" value="Save" onclick="miscProccess()">
+	</div>	
+	</form>
+	
+</div>
+
+
+<!-- reboot dialog -->
+
+<div class="rebootBox">
+    <p class="boxHeader">Trilobot Shutdown & Reboot</p>
+    
+    <div class="rebootBtnBox">
+        <div class="rebootBtnBox">
+            <button id="Shutdown" class="tblButton" onclick="piRestart('shutdown')">Shutdown</button>
+			<button id="Restart" class="tblButton" onclick ="piRestart('reboot')  ">Reboot</button>
+        </div>
+		
+        <div class="rebootBtnBox">
+		    <div id="piCancel" class="rebootBtnBox"></div>
+            <div id="piDoIt" class="rebootBtnBox"></div>
+			<div id="piDoingIt" class="rebootBtnBox"></div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+
+</body>
+</html>
