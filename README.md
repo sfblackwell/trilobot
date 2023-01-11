@@ -42,7 +42,7 @@
     - started at boot by cron
 
 ### Key documentation,tutorials and related resources used
-- [Flask quikstart](https://flask.palletsprojects.com/en/2.2.x/quickstart/)
+- [Flask quickstart](https://flask.palletsprojects.com/en/2.2.x/quickstart/)
 - [Flask / Jinja Templates](https://jinja.palletsprojects.com/en/3.1.x/templates/)
 - [Flask JavaScript, fetch, and JSON](https://flask.palletsprojects.com/en/2.2.x/patterns/javascript/)
 - [Matt Richardson's Serving Raspberry Pi with Flask](http://mattrichardson.com/Raspberry-Pi-Flask/index.html)
