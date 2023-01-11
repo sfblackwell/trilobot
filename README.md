@@ -55,5 +55,5 @@
 - [quackit.com css examples](https://www.quackit.com/css/examples/)
 - [Pimoroni Trilobot python library](https://github.com/pimoroni/trilobot-python/tree/main/library/trilobot)
   - Driver and Library information on the other @pimoroni items used can be found via the I2C module list
-
+# Thanks to all the people who created blog posts and other helpfull information I browsed, to many to list
 
