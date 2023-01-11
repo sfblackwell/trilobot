@@ -41,3 +41,19 @@
     - picamera2
     - started at boot by cron
 
+### Key documentation,tutorials and related resources used
+- [Flask quikstart](https://flask.palletsprojects.com/en/2.2.x/quickstart/)
+- [Flask / Jinja Templates](https://jinja.palletsprojects.com/en/3.1.x/templates/)
+- [Flask JavaScript, fetch, and JSON](https://flask.palletsprojects.com/en/2.2.x/patterns/javascript/)
+- [Matt Richardson's Serving Raspberry Pi with Flask](http://mattrichardson.com/Raspberry-Pi-Flask/index.html)
+- [json-validator](https://jsononline.net/json-validator)
+- [HTML5 CSS Javascript Generators](https://html-css-js.com/html/)
+- [Map bluetooth controller using python](https://raspberry-valley.azurewebsites.net/Map-Bluetooth-Controller-using-Python/)
+- [quackit.com css examples](https://www.quackit.com/css/examples/)
+- [Raspberry Pi camera software](https://www.raspberrypi.com/documentation/computers/camera_software.html#libcamera-vid)
+- [Raspberry Pi camera examples ](https://github.com/raspberrypi/picamera2/tree/main/examples)
+- [quackit.com css examples](https://www.quackit.com/css/examples/)
+- [Pimoroni Trilobot python library](https://github.com/pimoroni/trilobot-python/tree/main/library/trilobot)
+  - Driver and Library information on the other @pimoroni items used can be found via the I2C module list
+
+
