@@ -1,10 +1,10 @@
-# Simons-Trilobot
+# Simons @pimoroni Trilobot robot
 
-## *** This is a work in progress, I am only just getting started ***
+### *** This is a work in progress, I am only just getting started ***
 
-## *** I am not a coder or programer, so please excuse the chaos ***
+### *** I am not a coder or programer, so please excuse the chaos ***
 
-## Simons @pimoroni Trilobot robot
+## Sceenshots and pictures at bottom of this readme file 
 
 ### Loaded with:
 - I2C [PA1010D GPS Module](https://shop.pimoroni.com/products/pa1010d-gps-breakout?variant=32257258881107)
@@ -57,3 +57,7 @@
   - Driver and Library information on the other @pimoroni items used can be found via the I2C module list
 - Thanks to all the people who created blog posts and other helpfull information I browsed, to many to list
 
+![trilobot plus controller half](https://user-images.githubusercontent.com/122044826/212179922-8c774104-d420-4df5-91af-77403d0690f8.jpg)
+![pov 1 2](https://user-images.githubusercontent.com/122044826/212179644-bf58ce95-0166-4ee7-8651-f73a209aa9de.png)
+![pov 2 2](https://user-images.githubusercontent.com/122044826/212179669-5185cc11-aa66-4e51-8877-151d48c9846f.png)
+![parameters 2](https://user-images.githubusercontent.com/122044826/212179805-c81fa097-4865-41d6-8ef2-615aeda297a6.png)
