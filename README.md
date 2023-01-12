@@ -4,7 +4,7 @@
 
 ### *** I am not a coder or programer, so please excuse the chaos ***
 
-## Sceenshots and pictures at bottom of this readme file 
+## Sceenshots & pictures at bottom of this file, video in file list above 
 
 ### Loaded with:
 - I2C [PA1010D GPS Module](https://shop.pimoroni.com/products/pa1010d-gps-breakout?variant=32257258881107)
