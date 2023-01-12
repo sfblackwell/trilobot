@@ -1,4 +1,4 @@
-# Simons @pimoroni Trilobot robot
+# Simons @pimoroni @rapberrypi Trilobot robot
 
 ### *** This is a work in progress, I am only just getting started ***
 
